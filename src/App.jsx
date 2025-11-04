@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Gallery from "./componets/home/Gallery";
 import PreOrder from "./Pages/PreOrder";
+import Author from "./Pages/Author";
 
 const MainLayout = () => {
    return (
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
          { path: "about", element: <About /> },
          { path: "gallery", element: <Gallery /> },
          { path: "preOrder", element: <PreOrder /> },
+         { path: "author", element: <Author /> },
       ],
    },
 ]);
