@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, BookOpen, Heart } from "lucide-react";
+// import { Mail, BookOpen, Heart } from "lucide-react";
 import Herosection from "../components/home/HeroSection";
 import AboutBook from "../components/home/AboutBook";
 import AboutAuthor from "../components/home/AboutAuthor";
