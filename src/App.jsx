@@ -1,22 +1,21 @@
-import './App.css';
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import Navbar from './componets/common/Navbar';
-import Footer from './componets/common/Footer';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Gallery from './componets/home/Gallery';
-import PreOrder from './componets/common/PreOrder';
-import Author from './Pages/Author';
-
+import "./App.css";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Navbar from "./componets/common/Navbar";
+import Footer from "./componets/common/Footer";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Gallery from "./componets/home/Gallery";
+import PreOrder from "./Pages/PreOrder";
+import Author from "./Pages/Author";
 
 const MainLayout = () => {
-  return (
-    <div className="overflow-x-hidden">
-      <Navbar />
-      <Outlet /> 
-      <Footer />
-    </div>
-  );
+   return (
+      <div className="overflow-x-hidden">
+         <Navbar />
+         <Outlet />
+         <Footer />
+      </div>
+   );
 };
 
 const router = createBrowserRouter([
@@ -35,7 +34,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+   return <RouterProvider router={router} />;
 }
 
 export default App;
