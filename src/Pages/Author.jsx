@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroSection from '../componets/author/HeroSection'
-import AboutSection from '../componets/author/AboutSection'
-import BooksSection from '../componets/author/BooksSection'
-import CoverGallery from '../componets/author/CoverGallery'
-import CTASection from '../componets/author/CTASection'
+import HeroSection from '../components/author/HeroSection'
+import AboutSection from '../components/author/AboutSection'
+import BooksSection from '../components/author/BooksSection'
+import CoverGallery from '../components/author/CoverGallery'
+import CTASection from '../components/author/CTASection'
 
 const Author = () => {
   return (

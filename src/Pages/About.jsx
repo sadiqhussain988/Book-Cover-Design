@@ -1,10 +1,10 @@
 import React from 'react';
-import AboutHero from '../componets/about/AboutHero';
-import BookIntroduction from '../componets/about/BookIntro';
-import KeyFeatures from '../componets/about/KeyFeatures';
-import TargetAudience from '../componets/about/TargetAudience';
-import DesignPhilosophy from '../componets/about/DesignPhilosophy';
-import CTASection from '../componets/about/CTASection';
+import AboutHero from '../components/about/AboutHero';
+import BookIntroduction from '../components/about/BookIntro';
+import KeyFeatures from '../components/about/KeyFeatures';
+import TargetAudience from '../components/about/TargetAudience';
+import DesignPhilosophy from '../components/about/DesignPhilosophy';
+import CTASection from '../components/about/CTASection';
 
 function About() {
   return (

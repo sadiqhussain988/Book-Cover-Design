@@ -1,7 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Navbar from "./componets/common/Navbar";
-import Footer from "./componets/common/Footer";
+import Navbar from "./components/common/Navbar";
+import Footer from "./components/common/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";

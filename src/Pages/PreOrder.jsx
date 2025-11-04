@@ -2,10 +2,10 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import PreOrderHero from "../componets/preorder/PreOrderHero";
-import PricingSection from "../componets/preOrder/PricingSection";
-import PreOrderBenefits from "../componets/preOrder/PreOrderBenefits";
-import ReleaseTimeLine from "../componets/preOrder/ReleaseTimeLine";
+import PreOrderHero from "../components/preorder/PreOrderHero";
+import PricingSection from "../components/preOrder/PricingSection";
+import PreOrderBenefits from "../components/preOrder/PreOrderBenefits";
+import ReleaseTimeLine from "../components/preOrder/ReleaseTimeLine";
 
 const PreOrder = () => {
    useEffect(() => {
