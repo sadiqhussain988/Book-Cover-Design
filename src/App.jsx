@@ -4,6 +4,8 @@ import Navbar from './componets/common/Navbar';
 import Footer from './componets/common/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Gallery from './componets/home/Gallery';
+import PreOrder from './componets/common/PreOrder';
 import Author from './Pages/Author';
 
 
@@ -23,8 +25,9 @@ const router = createBrowserRouter([
      element: <MainLayout />,
      children: [
       { path:"", element: <Home/> },
-      {  path:"about", element: <About /> },
-      {  path:"author", element: <Author /> },
+      { path:"about", element: <About /> },
+      { path:"gallery", element: <Gallery /> },
+      { path:"order", element: <PreOrder /> },
      
      ],
   },
