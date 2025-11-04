@@ -14,7 +14,7 @@ const CTASection = () => {
   }, []);
 
   const IMAGE_URL =
-    "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80";
+    "https://media.istockphoto.com/id/1356569932/photo/style-and-confidence.webp?a=1&b=1&s=612x612&w=0&k=20&c=xasYFWvLUaJ5ezTHGQDNfsiU_qmtT6PE3S5OUmI4SLc=";
 
   return (
     <section
