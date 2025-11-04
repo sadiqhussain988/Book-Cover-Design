@@ -23,15 +23,15 @@ export default function Navbar() {
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/95 shadow-md backdrop-blur-md"
-          : "bg-white/95 "
+          ? "bg-[#e4b37d] backdrop-blur-md"
+          : "bg-[#e4b37d]"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-3">
           <span className="text-xl md:text-2xl font-semibold tracking-tight">
             <span className="text-amber-700">Strong with</span>{" "}
-            <span className="text-gray-800">Hearts & Hounds</span>
+            <span className="text-white">Hearts & Hounds</span>
           </span>
         </div>
 
@@ -40,14 +40,17 @@ export default function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-gray-700 hover:text-amber-700 font-medium transition-colors duration-200"
+             className="text-white font-medium border-b border-transparent hover:border-b-white transition-colors duration-200"
+
             >
               {link.name}
             </a>
           ))}
-          <button className="bg-amber-600 text-white px-5 py-2 rounded-xl shadow-md hover:bg-amber-700 transition duration-200">
-            Pre-Order
-          </button>
+         <button
+          className="border border-white px-6 py-3 rounded-full font-semibold text-white hover:bg-[#e4b37d]/10"
+        >
+           Pre Order
+        </button>
         </div>
 
         <button
