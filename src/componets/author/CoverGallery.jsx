@@ -15,32 +15,32 @@ const GallerySection = () => {
 
   const galleryCards = [
     {
-      img: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80",
+      img: "https://media.istockphoto.com/id/2205367823/photo/a-group-of-people-of-different-races-and-ages-take-part-in-a-tile-painting-therapy-class.webp?a=1&b=1&s=612x612&w=0&k=20&c=xcq8MRNDLCPmRaUmWGinoW-gOBwEpH-O0I48NOy2PC8=",
       title: "Echoes of Imagination",
       desc: "A bold yet emotional visual journey blending art and storytelling with timeless elegance.",
     },
     {
-      img: "https://images.unsplash.com/photo-1473187983305-f615310e7daa?auto=format&fit=crop&w=800&q=80",
+      img: "https://media.istockphoto.com/id/2188303781/photo/divorce-decree-signing.webp?a=1&b=1&s=612x612&w=0&k=20&c=JGfQ984gXrMznaKstUiUoneFTC7kG0Rf0QkJzrc-QPk=",
       title: "The Golden Chapter",
       desc: "Minimalist yet luxurious — capturing the author’s essence through golden hues and clean geometry.",
     },
     {
-      img: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+      img: "https://media.istockphoto.com/id/2223622180/photo/preschool-or-kindergarten-children-sit-on-the-floor-listening-as-the-teacher-reads-a.webp?a=1&b=1&s=612x612&w=0&k=20&c=LG01GCg4bBtcEcySxmHtuK13DGxTE57dFrejzKLWswI=",
       title: "Silent Stories",
       desc: "An introspective design where shadows and light tell their own poetic tale.",
     },
     {
-      img: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&q=80",
+      img: "https://media.istockphoto.com/id/503458062/photo/childrens-imagination.webp?a=1&b=1&s=612x612&w=0&k=20&c=vS8qdQZgA_LJIiJOXxqFI7uwGp62MjshY7lGNdSsxR8=",
       title: "Boundless Dreams",
       desc: "A design celebrating freedom, inspiration, and the unending flow of imagination.",
     },
     {
-      img: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80",
+      img: "https://plus.unsplash.com/premium_photo-1661407463637-12f961bdc559?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V2hpc3BlcnMlMjBpbiUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
       title: "Whispers in Design",
       desc: "Elegant typography meets a soft emotional palette — storytelling through simplicity.",
     },
     {
-      img: "https://images.unsplash.com/photo-1473187983305-f615310e7daa?auto=format&fit=crop&w=800&q=80",
+      img: "https://images.unsplash.com/photo-1694253987646-353954f1889d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fENhbnZhcyUyMG9mJTIwTGlnaHR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
       title: "Canvas of Light",
       desc: "A reflection of creativity — luminous, layered, and emotionally rich.",
     },

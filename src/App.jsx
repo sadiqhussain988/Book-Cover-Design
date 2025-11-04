@@ -28,6 +28,7 @@ const router = createBrowserRouter([
       { path:"about", element: <About /> },
       { path:"gallery", element: <Gallery /> },
       { path:"order", element: <PreOrder /> },
+      { path:"author", element: <Author /> },
      
      ],
   },

@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const FEATURED_IMAGE =
-  "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80";
+  "https://images.unsplash.com/photo-1630852722758-effe28684b0a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEZlYXR1cmVkJTIwQm9va3MlMjAlMjYlMjBEZXNpZ24lMjBQcm9qZWN0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500";
 
 const BooksSection = () => {
   useEffect(() => {
@@ -22,19 +22,19 @@ const BooksSection = () => {
       id: 1,
       title: "Whispers of the Pages",
       desc: "A heartfelt journey through imagination, where stories breathe and characters find life.",
-      img: "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?auto=format&fit=crop&w=600&q=80",
+      img: "https://images.unsplash.com/photo-1700681297539-62ed3eadf19f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V2hpc3BlcnMlMjBvZiUyMHRoZSUyMFBhZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
     },
     {
       id: 2,
       title: "Canvas of Dreams",
       desc: "A celebration of art, literature, and design — the soul of every book John creates.",
-      img: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=600&q=80",
+      img: "https://media.istockphoto.com/id/2234517523/photo/point-of-view-of-a-man-holding-paintbrush-getting-ready-to-paint-at-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=dpnmRVJc0FsGHE9VGQkwsFQOnd11M5LWlTyf0oKhNi0=",
     },
     {
       id: 3,
       title: "Ink & Inspiration",
       desc: "Where visual storytelling meets human emotion. A designer’s ode to creativity and courage.",
-      img: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=600&q=80",
+      img: "https://images.unsplash.com/photo-1700701298468-61657cfa9321?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SW5rJTIwJTI2JTIwSW5zcGlyYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
     },
   ];
 

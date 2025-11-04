@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-const AUTHOR_IMAGE =
-  "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=1000&q=80";
+import AuthorImage from "../../assets/author/ab.avif"; // ✅ Local image import
 
 const AboutSection = () => {
   useEffect(() => {
@@ -93,7 +91,7 @@ const AboutSection = () => {
           {/* Image Wrapper */}
           <div className="relative group overflow-hidden rounded-3xl shadow-2xl border-[3px] border-white/60 w-full max-w-md backdrop-blur-sm">
             <img
-              src={AUTHOR_IMAGE}
+              src={AuthorImage} // ✅ Local image used here
               alt="Author John Doe"
               className="rounded-3xl w-full h-[440px] object-cover transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
