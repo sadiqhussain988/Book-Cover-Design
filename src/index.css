@@ -1,1 +1,26 @@
-@import "tailwindcss";
+@import "tailwindcss";/* ✨ Shimmer Light Sweep Effect */
+@keyframes lightSweep {
+  0% {
+    transform: translateX(-100%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(200%) skewX(-20deg);
+  }
+}
+
+.shine-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%) skewX(-20deg);
+  animation: lightSweep 2s ease-in-out infinite;
+  opacity: 0.5;
+}

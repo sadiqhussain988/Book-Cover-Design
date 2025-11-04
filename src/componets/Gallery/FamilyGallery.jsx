@@ -5,9 +5,9 @@ const FamilyGallery = () => {
 
   return (
     <section
-      className="py-20 text-gray-800"
+      className="py-14 text-gray-800"
       style={{
-        background: "-gradient(135deg, #ffflinearaf6 0%, #f5f9ff 100%)",
+        background: "linear-gradient(135deg, #fffaf6 0%, #f5f9ff 100%)",
       }}
     >
       <div className="max-w-7xl mx-auto px-6 text-center space-y-10">
@@ -31,13 +31,19 @@ const FamilyGallery = () => {
           {images.map((img, i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-3xl border border-[#eae6df] bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 group"
+              className="relative overflow-hidden rounded-3xl border border-[#eae6df] bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 group"
             >
+              {/* Image */}
               <img
                 src={img}
                 alt="Family and Togetherness"
-                className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
+
+              {/* ✨ Light Sweep Effect */}
+              <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                <div className="shine-line"></div>
+              </div>
             </div>
           ))}
         </div>
@@ -48,6 +54,9 @@ const FamilyGallery = () => {
           moments, and being together.”
         </p>
       </div>
+
+      {/* ✨ Shine Animation Style */}
+     
     </section>
   );
 };

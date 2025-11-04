@@ -5,7 +5,7 @@ const TherapyGallery = () => {
 
   return (
     <section
-      className="py-20 text-gray-800"
+      className="py-14 text-gray-800"
       style={{
         background: "linear-gradient(135deg, #f8fbff 0%, #fff9f5 100%)",
       }}
@@ -31,23 +31,31 @@ const TherapyGallery = () => {
           {images.map((img, i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-3xl border border-[#e5edf6] bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 group"
+              className="relative overflow-hidden rounded-3xl border border-[#e5edf6] bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 group"
             >
+              {/* Image */}
               <img
                 src={img}
                 alt="Therapy and Education"
-                className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
+
+              {/* ✨ Light Sweep Effect */}
+              <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                <div className="shine-line"></div>
+              </div>
             </div>
           ))}
         </div>
 
-        {/* Closing line */}
+        {/* Quote */}
         <p className="text-sm text-gray-500 mt-4 italic">
           “Through learning and therapy, dogs teach us patience, kindness, and
           healing beyond words.”
         </p>
       </div>
+
+     
     </section>
   );
 };

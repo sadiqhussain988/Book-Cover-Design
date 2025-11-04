@@ -31,13 +31,19 @@ const EmotionalGallery = () => {
           {images.map((img, i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-3xl bg-white border border-[#f3e5da] shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 group"
+              className="relative overflow-hidden rounded-3xl bg-white border border-[#f3e5da] shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-1 group"
             >
+              {/* Image */}
               <img
                 src={img}
                 alt="Emotional Connection"
-                className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
+
+              {/* ✨ Light Sweep Effect */}
+              <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                <div className="shine-line"></div>
+              </div>
             </div>
           ))}
         </div>
