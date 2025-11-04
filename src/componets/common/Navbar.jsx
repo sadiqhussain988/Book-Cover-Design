@@ -12,13 +12,13 @@ export default function Navbar() {
       return () => window.removeEventListener("scroll", handleScroll);
    }, []);
 
-   const navLinks = [
-      { name: "Home", href: "/" },
-      { name: "About", href: "/about" },
-      { name: "Author", href: "/author" },
-      { name: "Gallery", href: "/gallery" },
-      { name: "Contact", href: "/contact" },
-   ];
+  const navLinks = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "about" },
+    { name: "Author", href: "author" },
+    { name: "Gallery", href: "gallery" },
+    { name: "Contact", href: "contact" },
+  ];
 
   return (
     <nav
