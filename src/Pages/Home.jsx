@@ -5,7 +5,7 @@ import Herosection from "../componets/home/HeroSection";
 import AboutBook from "../componets/home/AboutBook";
 import AboutAuthor from "../componets/home/AboutAuthor";
 import Testimonials from "../componets/home/Testimonials";
-import Newsletter from "../componets/home/NewSletter";
+import Newsletter from "../componets/Home/Newsletter";
 import BuySection from "../componets/home/BuySection";
 import FeatureSection from "../componets/home/FeatureSection";
 
