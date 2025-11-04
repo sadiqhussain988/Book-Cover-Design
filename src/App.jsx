@@ -4,6 +4,7 @@ import Navbar from './componets/common/Navbar';
 import Footer from './componets/common/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Author from './Pages/Author';
 
 
 const MainLayout = () => {
@@ -21,8 +22,9 @@ const router = createBrowserRouter([
     path: '/',
      element: <MainLayout />,
      children: [
-      { index: true, element: <Home/> },
-      { index: true, element: <About /> },
+      { path:"", element: <Home/> },
+      {  path:"about", element: <About /> },
+      {  path:"author", element: <Author /> },
      
      ],
   },
