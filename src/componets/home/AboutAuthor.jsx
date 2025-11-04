@@ -4,7 +4,7 @@ const AboutAuthor = () => {
   return (
     <section className="py-20 px-6 md:px-20 bg-[#f5efe9] flex flex-col md:flex-row items-center gap-10">
       <img
-        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80"
+        src="/bookcover/author.jpeg"
         alt="Author"
         className="rounded-2xl shadow-lg w-full md:w-1/3 object-cover"
       />
