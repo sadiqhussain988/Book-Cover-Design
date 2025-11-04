@@ -4,25 +4,22 @@ import { motion, AnimatePresence } from "framer-motion";
 const Herosection = () => {
   const slides = [
     {
-      image: "/bookcover/home1.jpg",
       heading: "Strong with Hearts and Hounds",
-      text: "The Everyday Power of Dogs in Life and Support",
+      text: "A journey into the deep bond between humans and dogs — how they bring calm, courage, and care into our everyday lives. This book celebrates the quiet power of connection that heals the heart.",
     },
     {
-      image: "/bookcover/home2.jpg",
       heading: "Healing Through Companionship",
-      text: "How Dogs Heal, Comfort, and Connect Us",
+      text: "Dogs remind us that comfort doesn’t always come in words. Their presence speaks a language of trust, patience, and love — teaching us to breathe, to pause, and to begin again.",
     },
     {
-      image: "/bookcover/home3.avif",
       heading: "Where Love Meets Loyalty",
-      text: "Building Emotional Strength Through Companionship",
+      text: "In a world that moves too fast, dogs help us slow down. Their loyalty grounds us, their joy restores us, and their silence often says more than words ever could.",
     },
   ];
 
   const [index, setIndex] = useState(0);
 
-  // Change slide every 5 seconds
+  // Change text every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % slides.length);
@@ -32,30 +29,26 @@ const Herosection = () => {
 
   return (
     <section className="relative h-[90vh] flex flex-col items-center justify-center text-center overflow-hidden">
-      {/* Background Image Transition */}
-      <AnimatePresence>
-        <motion.div
-          key={slides[index].image}
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${slides[index].image})` }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1.5 }}
-        />
-      </AnimatePresence>
+      {/* 🎥 Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/bookcover/video-dog1.mp4" // <-- replace this with your video file path
+        autoPlay
+        loop
+        muted
+        playsInline
+      ></video>
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/50"></div>
 
-      {/* Content */}
+      {/* Animated text content */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="relative z-10 text-white max-w-2xl px-6"
       >
-        {/* Animated Changing Heading */}
         <AnimatePresence mode="wait">
           <motion.h1
             key={slides[index].heading}
@@ -63,13 +56,12 @@ const Herosection = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl font-bold mb-4"
+            className="text-4xl md:text-6xl font-bold mb-4 text-amber-500/90"
           >
             {slides[index].heading}
           </motion.h1>
         </AnimatePresence>
 
-        {/* Animated Changing Text */}
         <AnimatePresence mode="wait">
           <motion.p
             key={slides[index].text}
@@ -83,9 +75,9 @@ const Herosection = () => {
           </motion.p>
         </AnimatePresence>
 
-        {/* Buttons */}
+        {/* Single Button */}
         <div className="flex gap-4 justify-center">
-          <button className="bg-[#e4b37d] hover:bg-[#d29a5d] px-6 py-3 rounded-full font-semibold text-white">
+          <button className="bg-amber-500/90 px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors font-semibold text-white">
             Learn More
           </button>
         </div>
