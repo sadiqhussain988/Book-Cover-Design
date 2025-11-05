@@ -4,7 +4,7 @@ const AboutAuthor = () => {
   return (
     <section className="py-20 px-6 md:px-20 bg-gradient-to-br from-amber-50 to-amber-100/30">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className=" grid md:grid-cols-2 gap-16 items-center">
           {/* Author Image with Refined Styling */}
           <div className="relative flex justify-center">
             <div className="relative w-full max-w-md">
@@ -12,7 +12,7 @@ const AboutAuthor = () => {
               <div className="relative group">
                 {/* Simplified Background Elements */}
                 <div className="absolute -inset-3 bg-amber-100 rounded-2xl transform group-hover:translate-x-1 group-hover:translate-y-1 transition-transform duration-400 -z-10"></div>
-                
+
                 {/* Main Image */}
                 <div className="relative overflow-hidden rounded-xl shadow-lg transform group-hover:-translate-y-1 transition-all duration-400">
                   <img
@@ -20,6 +20,10 @@ const AboutAuthor = () => {
                     alt="Dr. Charlotte Williams - Founder and CEO of Elysian"
                     className="w-full h-full object-cover transform group-hover:scale-102 transition-transform duration-500"
                   />
+                </div>
+                {/* ✨ Continuous Light Sweep Effect */}
+                <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                  <div className="shine-line"></div>
                 </div>
               </div>
 
@@ -55,7 +59,7 @@ const AboutAuthor = () => {
               <p className="text-gray-700 leading-relaxed">
                 <span className="font-semibold text-gray-900">Dr. Charlotte Williams</span> is the visionary founder and CEO of Elysian, where she pioneers innovative approaches in therapeutic education, animal-assisted interventions, and professional development.
               </p>
-              
+
               <p className="text-gray-700 leading-relaxed">
                 With over two decades of dedicated experience in social work, mental health, and organizational leadership, Charlotte brings a uniquely reflective and practical approach to her work. Her expertise empowers children, families, and professionals to cultivate resilience and achieve sustainable growth.
               </p>
@@ -83,12 +87,13 @@ const AboutAuthor = () => {
                 </div>
               </div>
 
-              {/* Refined Quote */}
-              <div className="text-gray-600 italic pl-4 border-l-2 border-amber-300">
-                "Bringing a reflective, real-life approach to help children, families, and professionals grow and thrive."
-              </div>
+
             </div>
           </div>
+        </div>
+        {/* Refined Quote */}
+        <div className=" mt-10 ml-50 text-gray-600 italic pl-4 border-l-2 border-amber-300">
+          "Bringing a reflective, real-life approach to help children, families, and professionals grow and thrive."
         </div>
       </div>
     </section>

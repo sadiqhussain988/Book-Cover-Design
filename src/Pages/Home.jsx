@@ -8,17 +8,21 @@ import FeatureSection from "../components/home/FeatureSection";
 import Testimonials from "../components/home/Testimonials";
 import Newsletter from "../components/Home/Newsletter";
 import BuySection from "../components/home/BuySection";
+import BookBenefits from "../components/Home/BookBenefits"
+import WhoShouldRead from "../components/Home/WhoShouldRead";
 
 const Home = () => {
   return (
     <div className=" mt-20 font-sans bg-[#f9f6f2] text-gray-800">
       <Herosection/>
       <AboutBook/>
-      <AboutAuthor/>
       <FeatureSection/>
+      <BookBenefits/>
+      <WhoShouldRead/>
+      <AboutAuthor/>
       <Testimonials/>
-      <Newsletter/>
       <BuySection/>
+       <Newsletter/>
     </div>
   );
 };

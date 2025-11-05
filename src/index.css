@@ -1,4 +1,6 @@
-@import "tailwindcss";/* ✨ Shimmer Light Sweep Effect */
+@import "tailwindcss";
+
+/* ✨ Shimmer Light Sweep Effect */
 @keyframes lightSweep {
   0% {
     transform: translateX(-100%) skewX(-20deg);

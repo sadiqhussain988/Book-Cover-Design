@@ -68,7 +68,7 @@ const AboutBook = () => {
         <div className="relative">
           <div className="grid grid-cols-2 gap-4" style={{ height: "500px" }}>
             {/* Main Large Image */}
-            <div className="row-span-2 relative group">
+            <div className=" row-span-2 relative group">
               <div className="absolute -inset-2 bg-amber-100 rounded-2xl transform group-hover:rotate-1 transition-transform duration-500 -z-10"></div>
               <div className="relative h-full rounded-xl overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-300">
                 <img
@@ -76,7 +76,11 @@ const AboutBook = () => {
                   alt="Strong with Hearts and Hounds book cover"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                {/* ✨ Continuous Light Sweep Effect */}
+              <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                <div className="shine-line"></div>
+              </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <h3 className="font-semibold">Book Cover</h3>
                 </div>
@@ -92,7 +96,14 @@ const AboutBook = () => {
                   alt="Therapy session with dog"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  {/* ✨ Continuous Light Sweep Effect */}
+              <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                <div className="shine-line"></div>
+              </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                 <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="font-semibold">Book Cover</h3>
+                </div>
               </div>
             </div>
 
@@ -105,7 +116,14 @@ const AboutBook = () => {
                   alt="Author at work"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  {/* ✨ Continuous Light Sweep Effect */}
+              <div className="absolute inset-0 overflow-hidden rounded-3xl">
+                <div className="shine-line"></div>
+              </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                 <div className=" absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="font-semibold">Book Cover</h3>
+                </div>
               </div>
             </div>
           </div>

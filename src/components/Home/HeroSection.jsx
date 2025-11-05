@@ -47,19 +47,19 @@ const Herosection = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="relative z-10 text-white max-w-2xl px-6"
+        className=" relative z-10 text-white max-w-3xl px-4"
       >
         <AnimatePresence mode="wait">
-          <motion.h1
+          <motion.h2
             key={slides[index].heading}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl font-bold mb-4 text-amber-500/90"
+            className="text-2xl md:text-6xl font-semibold mb-4 text-amber-500/90"
           >
             {slides[index].heading}
-          </motion.h1>
+          </motion.h2>
         </AnimatePresence>
 
         <AnimatePresence mode="wait">

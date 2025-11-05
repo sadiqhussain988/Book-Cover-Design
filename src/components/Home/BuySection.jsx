@@ -11,13 +11,13 @@ const BuySection = () => {
       <div className="flex gap-4 justify-center">
         <a
           href="#"
-          className="bg-[#e4b37d] hover:bg-[#d29a5d] px-6 py-3 rounded-full font-semibold text-white flex items-center gap-2"
+          className="bg-amber-500 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
         >
           <BookOpen size={18} /> Buy on Amazon
         </a>
         <a
           href="#"
-          className="border border-[#e4b37d] px-6 py-3 rounded-full font-semibold text-[#e4b37d] hover:bg-[#e4b37d]/10"
+          className="border border-amber-500 px-6 py-3 rounded-full font-semibold text-amber-600 hover:bg-amber-600/50"
         >
           Learn More
         </a>
