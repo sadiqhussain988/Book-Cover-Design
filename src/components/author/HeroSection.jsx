@@ -24,13 +24,13 @@ const Hero = () => {
           backgroundImage: `linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.6)), ${backgroundImage}`,
         }}
       >
-        {/* Floating glow orbs */}
+        {/* Floatings glows orbs */}
         <div className="absolute top-10 left-10 w-60 h-60 bg-[#a17d29]/25 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-10 right-10 w-80 h-80 bg-[#e3c07b]/25 rounded-full blur-3xl animate-pulse"></div>
 
-        {/* Content */}
+        {/* Contents */}
         <div className="relative z-10 max-w-5xl mx-auto px-3 md:px-6">
-          {/* Tagline */}
+          {/* Taglines */}
           <p
             data-aos="fade-down"
             className="text-sm uppercase tracking-[0.3em] text-white font-medium 
