@@ -3,11 +3,12 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PreOrderHero from "../components/preorder/PreOrderHero";
-import PricingSection from "../components/preorder/PricingSection"
-import PreOrderBenefits from "../components/preOrder/PreOrderBenefits";
-import ReleaseTimeLine from "../components/preOrder/ReleaseTimeLine";
+import PricingSection from "../components/preorder/PricingSection";
+import PreOrderBenefits from "../components/preorder/PreOrderBenefits";
+import ReleaseTimeLine from "../components/preorder/ReleaseTimeLine";
 
-const PreOrder = () => {
+
+const PreOrders = () => {
    useEffect(() => {
       AOS.init({
          duration: 800,
@@ -18,12 +19,12 @@ const PreOrder = () => {
 
    return (
       <div className="overflow-hidden">
-         <PreOrderHero />
-         <PricingSection />
-         <PreOrderBenefits />
-         <ReleaseTimeLine />
+         <PreOrderHero/>
+         <PricingSection/>
+         <PreOrderBenefits/>
+         <ReleaseTimeLine/>
       </div>
    );
 };
 
-export default PreOrder;
+export default PreOrders;

@@ -5,9 +5,10 @@ import Footer from "./components/common/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
-import PreOrder from "./Pages/PreOrder";
+
 import Author from "./Pages/Author";
 import Contact from "./Pages/Contact";
+import PreOrders from "./Pages/PreOrder";
 
 const MainLayout = () => {
    return (
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
       { path:"about", element: <About /> },
       { path:"author", element: <Author /> },
       { path:"gallery", element: <Gallery /> },
-      { path:"order", element: <PreOrder /> },
+      { path:"order", element: <PreOrders /> },
       { path:"author", element: <Author /> },
       { path:"contact", element: <Contact /> },
      
