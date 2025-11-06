@@ -112,7 +112,7 @@ const AboutBook = () => {
               <div className="absolute -inset-1 bg-amber-50 rounded-xl transform group-hover:rotate-1 transition-transform duration-500 -z-10"></div>
               <div className="relative h-full rounded-lg overflow-hidden shadow-md group-hover:shadow-lg transition-all duration-300">
                 <img
-                  src="../../assets/about-hero.jpg"
+                  src="../../../dist/about-hero.jpg"
                   alt="Author at work"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
