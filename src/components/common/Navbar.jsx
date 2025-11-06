@@ -46,9 +46,11 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+        <Link to="/order">
           <button className="bg-amber-600 text-white px-5 py-2 rounded-xl shadow-md hover:bg-amber-700 transition duration-200">
             Pre-Order
           </button>
+        </Link>
         </div>
 
             <button
