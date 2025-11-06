@@ -17,7 +17,7 @@ const PreOrder = () => {
             bg-white hover:-translate-y-1 hover:shadow-3xl transition-all duration-700  "
           >
             <img
-              src="bookcover.jpg"
+              src="../../../dist/bookcover.jpg"
               alt="Strong with Hearts and Hounds"
               className="w-full h-[400px] md:h-[460px] object-cover rounded-3xl "
             />
