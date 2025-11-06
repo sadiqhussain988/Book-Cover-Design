@@ -3,9 +3,9 @@ import React from "react";
 const AboutHero = () => {
   return (
     <section
-      className="min-h-screen flex items-center justify-center pt-16 relative"
+      className="h-screen flex items-center justify-center pt-22 relative"
       style={{
-        backgroundImage: 'url("/about-hero.jpg")', // ✅ works with public folder
+        backgroundImage: 'url("/bookcover/about-hero.jpg")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -15,19 +15,19 @@ const AboutHero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <div className="mb-8">
+          <div className="">
             <span className="text-sm font-semibold text-amber-300 uppercase tracking-wider">
               New Release
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light mb-6 leading-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light  leading-tight">
             Strong With
             <br />
             <span className="font-bold text-amber-300">Hearts & Hounds</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-amber-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-amber-100 mb-8 max-w-2xl mx-auto leading-relaxed">
             The Everyday Power of Dogs in Life and Support
           </p>
 

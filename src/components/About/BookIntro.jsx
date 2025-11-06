@@ -104,7 +104,7 @@ const BookIntroduction = () => {
                         <div
                            className="aspect-[3/4] bg-gray-200 rounded-lg flex items-center justify-center shadow-lg"
                            style={{
-                              backgroundImage: 'url("/about-hero.jpg")',
+                              backgroundImage: 'url("/bookcover/about-hero.jpg")',
                               backgroundSize: "cover",
                               backgroundPosition: "center",
                            }}
