@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PreOrderHero from "../components/preorder/PreOrderHero";
-import PricingSection from "./../components/preorder/PricingSection"
+import PricingSection from "../components/preorder/PricingSection"
 import PreOrderBenefits from "../components/preOrder/PreOrderBenefits";
 import ReleaseTimeLine from "../components/preOrder/ReleaseTimeLine";
 
