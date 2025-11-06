@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Herosection = () => {
+const HomeHeader = () => {
   const slides = [
     {
       heading: "Strong with Hearts and Hounds",
@@ -86,4 +86,4 @@ const Herosection = () => {
   );
 };
 
-export default Herosection;
+export default HomeHeader;
