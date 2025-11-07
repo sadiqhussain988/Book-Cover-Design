@@ -2,15 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // import { Mail, BookOpen, Heart } from "lucide-react";
-import AboutBook from "../components/home/AboutBook";
-import AboutAuthor from "../components/home/AboutAuthor";
-import FeatureSection from "../components/home/FeatureSection";
-import Testimonials from "../components/home/Testimonials";
-import Newsletter from "../components/home/Newsletter";
-import BuySection from "../components/home/BuySection";
-import BookBenefits from "../components/home/BookBenefits"
-import WhoShouldRead from "../components/home/WhoShouldRead";
-import HomeHeader from "../components/home/HeroSection";
+import AboutBook from "../components/Home/AboutBook";
+import AboutAuthor from "../components/Home/AboutAuthor";
+import FeatureSection from "../components/Home/FeatureSection";
+import Testimonials from "../components/Home/Testimonials";
+import Newsletter from "../components/Home/Newsletter";
+import BuySection from "../components/Home/BuySection";
+import BookBenefits from "../components/Home/BookBenefits"
+import WhoShouldRead from "../components/Home/WhoShouldRead";
+import HomeHeader from "../components/Home/HeroSection";
 
 const Home = () => {
   return (
